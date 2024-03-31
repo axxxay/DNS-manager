@@ -1,0 +1,38 @@
+.homepage-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 90vh;
+    background-color: #fff;
+    margin-top: 10vh;
+    padding: 0 5%;
+}
+
+.homepage-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.homepage-image {
+    width: 50%;
+    height: 100%;
+}
+
+.homepage-bg {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .homepage-content {
+        width: 100%;
+    }
+
+    .homepage-image {
+        display: none;
+    }
+    
+}

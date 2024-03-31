@@ -1,0 +1,39 @@
+.hosted-zones-table-actions-select {
+    height: 26px;
+    padding: 0px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #79bcff;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+
+.hosted-zones-table-actions-icon {
+    margin-left: 3px;
+    font-size: 15px;
+}
+
+.hosted-zones-table-actions {
+    position: absolute;
+    z-index: 1;
+    width: 82px;
+    background-color: #79bcff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.table-button {
+    height: 25px;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 1px solid white;
+}

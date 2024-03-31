@@ -1,0 +1,17 @@
+.homepage-label-file {
+    font-size: 15px;
+    
+    border: dashed 2px #79bcff;
+    padding: 10px;
+    border-radius: 5px;
+    color: #79bcff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.homepage-file-input {
+    display: none;
+}

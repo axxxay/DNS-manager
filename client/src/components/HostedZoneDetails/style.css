@@ -1,0 +1,78 @@
+.hosted-zone-details-container {
+    height: 90vh;
+    margin-top: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.hosted-zone-details-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 0px;
+    color: #333;
+}
+
+.hosted-zone-details-con {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.hosted-zone-details-sub {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.hosted-zone-details {
+    display: flex;
+    width: 50%;
+}
+
+.hosted-zone-details-label {
+    font-size: 15px;
+    color: #333;
+    font-weight: 600;
+}
+
+.hosted-zone-details-value {
+    font-size: 15px;
+    color: #333;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .hosted-zone-details-con {
+        width: 90%;
+    }
+
+    .hosted-zone-details {
+        width: 100%;
+    }
+
+    .hosted-zone-details-title {
+        font-size: 18px;
+    }
+
+    .hosted-zone-details-value {
+        word-break: break-all;
+        margin-left: 10px;
+        font-size: 13px;
+    }
+
+    .hosted-zone-details-sub {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .hosted-zone-details-label {
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
+
+
+    
+}

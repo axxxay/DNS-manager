@@ -1,0 +1,188 @@
+.hosted-zones-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 10vh;
+    min-height: 90vh;
+    width: 100%;
+}
+
+.hosted-zones-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0px;
+    color: #333;
+}
+
+.hosted-zones-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.hosted-zones-count {
+    font-size: 18px;
+    color: #333;
+}
+
+.hosted-zones-button {
+    height: 30px;
+    padding: 0px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #79bcff;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+.hosted-zones-content {
+    width: 80%;
+    overflow-x: auto;
+    min-height: 100%;
+}
+
+.hosted-zones-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #79bcff;
+    border-radius: 10px;
+}
+
+.hosted-zones-table-head {
+    background-color: #79bcff;
+    color: white;
+}
+
+.hosted-zones-table-row {
+    border-top: 1px solid #79bcff;
+}
+
+.hosted-zones-table-head-cell {
+    padding: 10px;
+    padding-left: 20px;
+    text-align: left;
+    color: #ffffff;
+    border-right: 1px solid #fff;
+    font-size: 15px;
+}
+
+.hosted-zones-table-body {
+    width: 100%;
+}
+
+.hosted-zones-table-body-cell {
+    padding: 10px;
+    padding-left: 20px;
+    text-align: left;
+    color: #333;
+    font-size: 15px;
+}
+
+.active-cell {
+    color: #79bcff;
+    text-decoration: underline;
+}
+
+.hosted-zones-table-button {
+    height: 25px;
+    padding: 0px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #79bcff;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    outline: none;
+}
+
+.hosted-zone-popup-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.hosted-zone-popup-button {
+    height: 27px;
+    padding: 0px 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #79bcff;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+.search-bar {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 40px;
+    border: 1px solid #007bff;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.search-icon {
+    padding: 10px;
+    font-size: 40px;
+    color: #007bff;
+}
+
+.search-input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    outline: none;
+}
+
+@media screen and (max-width: 768px) {
+    .hosted-zones-title {
+        font-size: 18px;
+    }
+
+    .hosted-zones-content {
+        width: 95%;
+    }
+
+    .hosted-zones-table-head-cell {
+        padding: 5px;
+        padding-left: 10px;
+        font-size: 12px;
+    }
+
+    .hosted-zones-table-body-cell {
+        padding: 5px;
+        padding-left: 10px;
+        font-size: 12px;
+    }
+
+    .hosted-zones-button {
+        height: 25px;
+        padding: 0px 10px;
+        font-size: 12px;
+    }
+
+    .hosted-zones-count {
+        font-size: 15px;
+    }
+
+    .hosted-zones-buttons {
+        width: 95%;
+    }
+    
+    .search-bar {
+        width: 90%;
+        height: 35px;
+    }
+}
