@@ -2,9 +2,6 @@ const cors = require('cors');
 const app = require('./config/express');
 const userRoutes = require('./routes/userRoute');
 const route53Routes = require('./routes/route53Route');
-// const swaggerUi = require('swagger-ui-express');
-// const YAML = require('yamljs');
-// const swaggerDocument = YAML.load('./swagger_doc.yaml');
 
 
 app.use(cors());

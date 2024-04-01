@@ -10,7 +10,7 @@ router.get('/all-hosted-zones', authenticateToken, route53Controller.getAllHoste
 router.get('/hosted-zone-details/:hostedZoneId', authenticateToken, route53Controller.getHostedZoneDetails);
 router.delete('/delete-hosted-zone/:hostedZoneId', authenticateToken, route53Controller.deleteHostedZone);
 router.post('/create-record/:hostedZoneId', route53Controller.createRecord);
-router.post('/upload-csv/:hostedZoneId', upload.single('file'), route53Controller.bulkCreateRecords);
+router.post('/upload-csv/:hostedZoneId', authenticateToken, upload.single('file'), route53Controller.bulkCreateRecords);
 router.put('/update-record/:hostedZoneId', authenticateToken, route53Controller.updateRecord);
 router.delete('/delete-record/:hostedZoneId', authenticateToken, route53Controller.deleteRecord);
 router.get('/record-details/:name/:recordType/:hostedZoneId', authenticateToken, route53Controller.getRecordDetails);

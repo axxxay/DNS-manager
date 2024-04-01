@@ -17,7 +17,7 @@ const authenticateToken = (request, response, next) => {
             response.status(401);
             response.send({error: "Invalid JWT Token"});
         } else {
-            request.username = payload.username;
+            request.email = payload.email;
             next();
         }
     });

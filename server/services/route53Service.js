@@ -152,7 +152,7 @@ const bulkCreateRecords = async (file, hostedZoneId) => {
         const csvData = await csvtojson().fromString(file.buffer.toString());
 
         for (const record of csvData) {
-            // Validate record fields (e.g., name, type, value, ttl)
+            // Validate record fields (name, type, value, ttl)
             console.log(record)
             if (!record.name || !record.type || !record.value || !record.ttl) {
                 const error = new Error('Invalid record data in CSV file!');
